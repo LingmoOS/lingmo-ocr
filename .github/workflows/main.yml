@@ -28,5 +28,4 @@ jobs:
       run: mkdir -p /usr/include/KF5
     - name: Build Package
       run: |
-        chmod -x debian/lingmo-*
         dpkg-buildpackage -b -uc -us -j$(nproc)

@@ -43,4 +43,3 @@ debian/debhelper*
 debian/files
 debian/lingmo-ocr*
 obj-x86_64*
-3rdparty/opencv-4.5.4/modules

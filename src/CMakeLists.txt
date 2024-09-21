@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(lingmo-ocr)
 
+include_directories(../3rdparty/ncnn/src)
+
 #for Qt
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_CXX_STANDARD 14)
